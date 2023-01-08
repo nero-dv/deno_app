@@ -1,9 +1,9 @@
 {
-  "name": "deno starter",
+  "name": "denostarter",
   "scripts": {
-    "start": "deno run --allow-net=:${PORT} index.js --port=${PORT}"
+    "start": "deno run --allow-net=:${PORT} main.ts --port=${PORT}"
   },
   "devDependencies": {
-    "deno-bin": "^1.28.2"
+    "deno-bin": "^1.29.2"
   }
 }
