@@ -1,7 +1,7 @@
 {
   "name": "denostarter",
   "scripts": {
-    "start": "deno run --allow-net=:${PORT} --allow-read main.ts --port=${PORT}"
+    "start": "deno run --allow-net --allow-read main.ts"
   },
   "devDependencies": {
     "deno-bin": "^1.28.2"
